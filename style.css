@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(214, 188, 248);
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: rgba(32, 0, 75, 0.897);
+}
+h1 {
+    font-size: 5.2rem;
+    margin-bottom: 2.8rem;
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+p{
+    font-size: 1.8rem;
+    font-weight:580;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+a{
+    margin-top: 1.5rem;
+}
+
+
+/*---------- CLASSES AND IDs ----------*/
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------- BUTTONSs ----------*/
+.btn {
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid rgba(32, 0, 75, 0.897);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: white;
+    color: rgba(32, 0, 75, 0.897);
+    border-radius: 0.25rem;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(222, 207, 241);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(140, 64, 238, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
